@@ -1,0 +1,91 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+  }
+  
+  body {
+    background-color: #f0f9ff;
+    color: #1a202c;
+    padding: 20px;
+  }
+  
+  header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 0;
+  }
+  
+  .login-btn {
+    padding: 10px 20px;
+    background-color: #2bb593;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+  }
+  
+  .title {
+    text-align: center;
+    margin-top: 10px;
+  }
+  
+  .title h1 {
+    font-size: 3rem;
+    color: #023047;
+  }
+  
+  .title h3 {
+    color: #2bb593;
+    font-weight: 500;
+    margin-top: 5px;
+  }
+  
+  .description {
+    text-align: center;
+    max-width: 700px;
+    margin: 20px auto;
+    color: #555;
+  }
+  
+  .features {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 40px;
+    flex-wrap: wrap;
+  }
+  
+  .card {
+    background-color: #ffffff;
+    width: 320px;
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.05);
+    text-align: center;
+    margin: 10px;
+    transition: transform 0.3s ease;
+  }
+  
+  .card:hover {
+    transform: translateY(-5px);
+  }
+  
+  .card img {
+    width: 100%;
+    height: 180px;
+    border-radius: 8px;
+    object-fit: cover;
+  }
+  
+  .card h2 {
+    color: #2bb593;
+    margin: 15px 0 10px;
+  }
+  
+  .card p {
+    font-size: 14px;
+    color: #555;
+  }
+  
