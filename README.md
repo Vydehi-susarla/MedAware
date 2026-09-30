@@ -63,7 +63,6 @@ npm start
 | POST | `/api/medicines/:id/claim` | Claim a medicine |
 | POST | `/api/chatbot` | Ask the chatbot a question |
 
-Change these to match your actual routes.
 
 
 ## Future work
